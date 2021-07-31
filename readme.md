@@ -36,9 +36,11 @@
 > - All scores - `math_score`, `reading_score` and `science_score` -  are approximately normal distributed and centered arount 500. Most students score between 300 and 750 on each test. On average, students tend to perform slightly better (arount 20 points) on the `science_score` compared to reading and mathmatics.
 > - Germany performed above OECD average in all three test subjects.
 > - On the mathematics test, male students performed slightly better on average, by 20 points. On the contrary, females scored better on the reading test, also by 20 points. When it comes to science, female and male students in Germany performed equally well on the PISA 2012 test.
+> 
 > **Family structure**: 
 > - Availability of both parents does not have an influence on students school performances. Students raised by a single parent (father or mother) perform equally well in all three test subjects. This is counter-intuitive, since I expected kids' performances to depend on support given by their parents and single parents tend to have less time for their kids as they have to juggle several responsibilities on their own.
 > - Nevetheless, students living in other familily structures (no parents, living with grandparents etc.) tend to perform significally lower compared to the othe two categories. Finding reasons for this could be open for further research.
+> 
 > **Immigration status**:
 > - Native students scored on average 550 on all three tests. First and second-generation immigrations performed lower (by about 10%). From the boxplots above, I derive that immigrants in general struggle more in school and perform less compared to native students. Second-generation immigrants perform better than first-generation immigrants, giving rise to the assumption that this effect is weakened with the timing spend in the migrated country.
 
