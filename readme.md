@@ -1,17 +1,43 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# Cultural effects on German PISA 2012 scores
+## by Markus Stachl
+31.07.2021
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+> PISA is the OECD's Programme for International Student Assessment. PISA measures 15-year-olds’ ability to use their reading, mathematics and science knowledge and skills to meet real-life challenges. I restricted the dataset to reponses from German students.
+
+> The main goal is to analyse how the cultural and educational backgroud of students influence their school performance indicated by the PISA test results. I also want to highlight possible struggles of immigrants in Germany.
+
+> As schools were categorized using float values, I needed to transform them into categorical strings. Therefore I mapped float values to a describing string translating school names from the PISA 2012 scale handbook
+
+### Features of interest:
+> **Test scores:**
+> - Mathematics score: PV1MATH
+> - Reading score: PV1READ
+> - Science score: PV1SCIE
+
+> **Student information:**
+> - Country: CNT
+> - Gender of student: ST04Q01
+> - National study program (type of attended school): ST02Q01
+
+> **Family information:**
+> - Education level father: FISCED
+> - Education level mother: MISCED
+> - Highest education level parents: HISCED
+> - Family structure: FAMSTRUC
+> - Immigration status: IMMIG
 
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
-
-
-## Key Insights for Presentation
-
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+> **Test scores**: 
+> - All scores - `math_score`, `reading_score` and `science_score` -  are approximately normal distributed and centered arount 500. Most students score between 300 and 750 on each test. On average, students tend to perform slightly better (arount 20 points) on the `science_score` compared to reading and mathmatics.
+> - Germany performed above OECD average in all three test subjects.
+> - On the mathematics test, male students performed slightly better on average, by 20 points. On the contrary, females scored better on the reading test, also by 20 points. When it comes to science, female and male students in Germany performed equally well on the PISA 2012 test.
+> **Family structure**: 
+> - Availability of both parents does not have an influence on students school performances. Students raised by a single parent (father or mother) perform equally well in all three test subjects. This is counter-intuitive, since I expected kids' performances to depend on support given by their parents and single parents tend to have less time for their kids as they have to juggle several responsibilities on their own.
+> - Nevetheless, students living in other familily structures (no parents, living with grandparents etc.) tend to perform significally lower compared to the othe two categories. Finding reasons for this could be open for further research.
+> **Immigration status**:
+> - Native students scored on average 550 on all three tests. First and second-generation immigrations performed lower (by about 10%). From the boxplots above, I derive that immigrants in general struggle more in school and perform less compared to native students. Second-generation immigrants perform better than first-generation immigrants, giving rise to the assumption that this effect is weakened with the timing spend in the migrated country.
