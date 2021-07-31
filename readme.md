@@ -36,8 +36,10 @@
 > - All scores - `math_score`, `reading_score` and `science_score` -  are approximately normal distributed and centered arount 500. Most students score between 300 and 750 on each test. On average, students tend to perform slightly better (arount 20 points) on the `science_score` compared to reading and mathmatics.
 > - Germany performed above OECD average in all three test subjects.
 > - On the mathematics test, male students performed slightly better on average, by 20 points. On the contrary, females scored better on the reading test, also by 20 points. When it comes to science, female and male students in Germany performed equally well on the PISA 2012 test.
-> 
-> **Family structure**: 
+
+> **School types**:
+> - Attended school is a gread indicator for attained scores for each student. This is possibly due to the different level of education in general and therefore expected.
+> **Family structure and education**: 
 > - Availability of both parents does not have an influence on students school performances. Students raised by a single parent (father or mother) perform equally well in all three test subjects. This is counter-intuitive, since I expected kids' performances to depend on support given by their parents and single parents tend to have less time for their kids as they have to juggle several responsibilities on their own.
 > - Nevetheless, students living in other familily structures (no parents, living with grandparents etc.) tend to perform significally lower compared to the othe two categories. Finding reasons for this could be open for further research.
 > 
