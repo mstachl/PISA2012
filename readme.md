@@ -41,3 +41,8 @@
 > - Nevetheless, students living in other familily structures (no parents, living with grandparents etc.) tend to perform significally lower compared to the othe two categories. Finding reasons for this could be open for further research.
 > **Immigration status**:
 > - Native students scored on average 550 on all three tests. First and second-generation immigrations performed lower (by about 10%). From the boxplots above, I derive that immigrants in general struggle more in school and perform less compared to native students. Second-generation immigrants perform better than first-generation immigrants, giving rise to the assumption that this effect is weakened with the timing spend in the migrated country.
+
+## Sources
+- PISA 2012 survey: https://www.oecd.org/pisa/data/
+- PISA 2012 codebook: https://www.oecd.org/pisa/pisaproducts/PISA12_stu_codebook.pdf
+- PISA 2012 scale book (German): https://www.pisa.tum.de/fileadmin/w00bgi/www/Berichtsbaende_und_Zusammenfassungungen/PISA_2012_Skalenhandbuch_final-openaccess.pdf
